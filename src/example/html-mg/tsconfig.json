@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "lib": ["esnext", "dom"],
+    "types": [
+      "@mastergo/plugin-typings",
+      "@mastergo/html-mastergo",
+      "@types/node",
+    ]
+  },
+  "include": [
+    "./ui/**/*.ts",
+    "./ui/**/*.vue",
+    "./typings/*.d.ts",
+    "./lib/**/*.ts", 
+  ]
+}
